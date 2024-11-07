@@ -24,7 +24,7 @@ namespace MyGame.QuestSystem
 
         public void ItemCollected(string itemId)
         {
-            if(this.itemId != itemId)
+            if(this.itemId == itemId)
             {
                 currentAmount++;
             }
